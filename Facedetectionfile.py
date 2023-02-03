@@ -10,9 +10,10 @@ cascade_face = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 cap = cv2.VideoCapture(0)
 # turn on the video
-# utilized VideoCapture function
+# utilized VideoCapture functions
 
-while True:                 # infinite loop
+# infinite loop
+while True:                 
     ret, img = cap.read()
     print(ret)
 
