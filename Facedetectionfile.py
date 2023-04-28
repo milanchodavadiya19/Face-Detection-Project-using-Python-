@@ -26,6 +26,7 @@ while True:
     # given data of frame. length, width and height
     for (x, y, w, h) in f:
         cv2.rectangle(img, (x, y), (x + w, y + h), (0,0,255), 4)
+        
         # x and w is in horizontal, y and h is in vertical.
         # (0,0,255) (B,G,R)
         # 4 is width of rectangle
