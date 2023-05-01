@@ -11,6 +11,7 @@ cascade_face = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 cap = cv2.VideoCapture(0)
 # turn on the video (Web camera)
 
+
 # utilized VideoCapture functions
 
 # infinite loop
