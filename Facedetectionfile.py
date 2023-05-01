@@ -13,7 +13,6 @@ cap = cv2.VideoCapture(0)
 
 
 # utilized VideoCapture functions
-
 # infinite loop
 while True:                 
     ret, img = cap.read()
