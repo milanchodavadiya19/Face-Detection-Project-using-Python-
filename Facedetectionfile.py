@@ -30,6 +30,7 @@ while True:
         # (0,0,255) (B,G,R)
         # 4 is width of rectangle
 
+      
     cv2.imshow('img', img)
     # to display
     k = cv2.waitKey(30) & 0xff
