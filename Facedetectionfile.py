@@ -16,7 +16,7 @@ cap = cv2.VideoCapture(0)
 while True:                 
     ret, img = cap.read()
     print(ret)
-
+    
     g = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     # cvt convert color from bgr to grey scale
 
