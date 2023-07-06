@@ -35,6 +35,7 @@ while True:
     if k == 27:
         break
 
+
 cap.release()
 cv2.destoryAllWindows()
 
