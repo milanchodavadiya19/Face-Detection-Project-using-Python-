@@ -7,7 +7,6 @@ import cv2
 cascade_face = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 # data file
 
-
 cap = cv2.VideoCapture(0)
 # turn on the video (Web camera)
 # utilized VideoCapture functions
